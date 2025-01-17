@@ -1,0 +1,99 @@
+/* StoryCreator.css */
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    resize: none;
+    box-sizing: border-box;
+  }
+  
+  .generate-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .generate-button:hover {
+    background-color: #45a049;
+  }
+  
+  .generate-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .story-container {
+    margin-top: 40px;
+  }
+  
+  .story-section {
+    margin-bottom: 20px;
+  }
+  
+  .story-heading {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .story-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
